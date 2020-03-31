@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<meta charset="utf-8" />
+<head> 
+
+    <title> Travelling Chef Home page </title>
+    <link href="https://fonts.googleapis.com/css?family=Abel|Dosis|Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="tc.css">
+    <link rel="textsheet" href="recipes.html">
+
+    <style>
+
+
+
+
+  p {
+      font-family: 'Abel', sans-serif;
+      font-size: 20px;
+      padding-left: 7cm;
+      padding-right: 5cm;
+      text-decoration: none;
+    text-transform: uppercase;
+    padding-top: 1cm;
+    padding-bottom: 15px;
+    text-align: center;
+  }
+
+  h3 {
+    font-family: 'Abel', sans-serif ;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.social li {
+  display: inline-block;
+  margin-left: 7cm;
+  list-style: none;
+  margin-left: 1cm;
+ 
+
+}
+</style>
+
+</head>
+
+
+<body>
+
+    <header>
+        <div class="container"> 
+            <a href="index.html"> <img src="logo.png" alt="logo" class="logo" width=450px> 
+
+              <nav>  
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="recipes.html">Recipes</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul> 
+              </nav>
+              
+<div class="search">
+  <div id="cover">
+    <form method="get" action="">
+      <div class="tb">
+        <div class="td"><input type="text" placeholder="Search" required></div>
+        <div class="td" id="s-cover">
+          <button type="submit">
+            <div id="s-circle"></div>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </form>
+  </div>
+        </div>
+        
+
+</header>
+
+<p> Welcome to Travelling Chefs. Our goal is to share recipes from all around the world. </p>
+<p> Click on a continent down below to reveal recipes :)</p>
+
+ <img style=" margin-left: 6cm; margin-right: 2cm; padding-right: 2cm;margin-top: 2cm;margin-bottom: 4cm" src='map.png' alt="worldmap" usemap="#worldmap" width=900px />
+
+<map name="worldmap">
+  <area shape="rect" coords="100,80,200,150" alt="North America" href="Recipes.html#Northamerica" />
+  <area shape="rect" coords="210,270,310,340" alt="South America" href="recipes.html#Southamerica"/>
+  <area shape="rect" coords="490,80,560,115" alt="Europe" href="recipes.html#Europe"/>
+  <area shape="rect" coords="610,90,750,150" alt="Asia" href="recipes.html#Asia"/>
+  <area shape="rect" coords="420,180,520,240" alt="Africa" href="recipes.html#Africa"/>
+  <area shape="rect" coords="760,330,900,400" alt="Australia" href="recipes.html#Australia"/>
+</map>
+
+</body>
+
+
+    <footer class="main-footer">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p style="font-size: 0.5cm; font-family: 'Abel', cursive:" ;="copyright-text">Copyright &copy; 2020 All Rights Reserved by Travelling Chefs. </p>
+          </div>
+
+          <div class="icons">
+            <ul class="social-icons">
+              <li><a class="youtube" href="https://www.youtube.com"><i class="fa fa-youtube"> <img src="youtube.png" width=50px ></i></a></li>
+              <li><a class="twitter" href="https://www.twitter.com"><i class="fa fa-twitter"><img src="twitter.png" width=50px></i></a></li>
+              <li><a class="instagram" href="https://www.instagram.com"><i class="fa fa-instagram"><img src="instagram.png" width=50px></i></a></li>
+          
+            </ul>
+          </div>
+        </div>
+      </div>
+</footer>
+
+</div>
+</html>
