@@ -2,12 +2,6 @@
 (function ($) {
     "use strict";
 
-
-   /* $("form").submit(function(){
-        alert("Message submitted");
-      });
-
-
     /*==================================================================
     [ Focus Contact2 ]*/
     $('.input2').each(function(){
