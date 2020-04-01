@@ -3,7 +3,7 @@
     "use strict";
 
 
-    $("form").submit(function(){
+   /* $("form").submit(function(){
         alert("Message submitted");
       });
 
